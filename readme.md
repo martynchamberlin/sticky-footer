@@ -29,5 +29,5 @@ body {
 }
 ```
 
-That's all there is to it. [You can view a demo here](http://sticky-footer.martynchamberlin.com). Enjoy!
+That's all there is to it. [You can view a demo here](http://sticky-footer.martynchamberlin.com/demo.html). Enjoy!
 
