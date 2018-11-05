@@ -1,0 +1,46 @@
+<html lang="en-us">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+<title>How to have a sticky footer with modern CSS</title>
+<link rel="stylesheet" href="sticky-footer.css" />
+<link rel="stylesheet" href="demo.css" />
+</head>
+
+<body>
+  <div>
+    <h1>How to have a sticky footer with modern CSS</h1>
+
+    <p>The solution to creating a sticky footer is incredibly easy nowadays thanks to Flexbox. Have a DOM that follows this structure:</p>
+
+<pre><code>&lt;body&gt;
+  &lt;div&gt;
+    Place all of your website in this div.
+    It doesn't even have to have a class!
+  &lt;/div&gt;
+
+  &lt;footer&gt;
+    This footer will hug the bottom no matter what its height.
+  &lt;/footer&gt;
+&lt;/body&gt;
+</code></pre>
+
+      <p>And then this CSS:</p>
+
+<pre><code>html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+</code></pre>
+
+  <p>That's all there is to it. Enjoy!</p>
+  </div>
+
+  <footer>Sticky footer 😎</footer>
+</body>
+
+</html>
