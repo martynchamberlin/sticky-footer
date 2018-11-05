@@ -15,7 +15,7 @@ The solution to creating a sticky footer is incredibly easy nowadays thanks to F
 </body>
 ```
 
-And then this CSS:
+And then this CSS, which you can download [here](https://raw.githubusercontent.com/martynchamberlin/sticky-footer/master/sticky-footer.css).
 
 ```css
 html, body {
